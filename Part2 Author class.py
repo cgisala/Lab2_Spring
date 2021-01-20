@@ -33,12 +33,14 @@ def main():
     print(f'\n{chris}')
 
     shrek = Author('Shrek')
+    shrek.publish('Good to be an ogre')
     shrek.publish('Shrek\'s greatest hits')
     shrek.publish('How to be the best ogre')
     shrek.publish('Me and donkey')
     shrek.publish('Shrek\'s greatest hits')
     shrek.publish('Me and Fiona')
     shrek.publish('How to be the best ogre')
+    shrek.publish('Good to be an ogre')
     
     print(f'\n{shrek}')
 
