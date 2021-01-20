@@ -13,7 +13,7 @@ class Student:
 
 def main():
     print()
-    alex = Student('Alex', '12345', 4.0)  # must be entered in the same order as the arrangement of the variables in the class.
+    alex = Student('Alex', '12345', 4.0)  # must be entered in the same order as the arangement of the variables in the class.
     print(alex.name)
     print(alex.school_id)
     print(alex.gpa)
